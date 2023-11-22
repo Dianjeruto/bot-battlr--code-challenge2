@@ -4,7 +4,7 @@ import "./BotCollection";
 function BotCollection({ enlistBot, showBotSpecs, enlistedBots }) {
   const [bots, setBots] = useState([]);
   useEffect(() => {
-    fetch('https://localhost:3000/bots') 
+    fetch('http://localhost:3000/bots') 
       .then(response => response.json())
       .then(data => setBots(data));
   }, []);
