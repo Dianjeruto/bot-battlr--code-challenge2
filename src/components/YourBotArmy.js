@@ -9,7 +9,7 @@ function YourBotArmyContainer({ enlistedBots, setEnlistedBots }) {
 
   const dischargeBot = async (bot) => {
     try {
-      fetch(`https://localhost:3000/bots/${bot.id}`, {
+      fetch(`http://localhost:8000/bots/${bot.id}`, {
         method: 'DELETE',
       });
 

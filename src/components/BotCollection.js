@@ -4,7 +4,7 @@ import "./BotCollection";
 function BotCollection({ enlistBot, showBotSpecs, enlistedBots }) {
   const [bots, setBots] = useState([]);
   useEffect(() => {
-    fetch(`https://data-68yz.onrender.com/bots`) 
+    fetch(`https://dbserver-six.vercel.app/bots`) 
       .then(response => response.json())
       .then(data => setBots(data));
   }, []);
