@@ -1,7 +1,6 @@
 {
     "name": "bot-battlr--code-challenge2",
     "version": "0.1.0",
-    "homepage": "https://Dianjeruto.github.io/react-gh-pages",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
